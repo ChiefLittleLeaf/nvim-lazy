@@ -12,6 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    spec = "chieflittleleaf.lazy",
-    change_detection = { notify = false }
+    import = "plugins",
+    --change_detection = { notify = false }
 })

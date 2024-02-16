@@ -1,8 +1,5 @@
 return {
     "neovim/nvim-lspconfig",
-   --[[ opts = {
-      autoformat = true,
-    },]]--
     dependencies = {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
